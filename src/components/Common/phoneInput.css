@@ -1,0 +1,20 @@
+.react-tel-input{
+    background-color: #E5E7EB !important;
+    border-radius: 10px !important;
+    
+} 
+
+.react-tel-input .country-list {
+    background-color: #E5E7EB !important;
+
+}
+.react-tel-input  ul li .country-name{
+    color: #000 !important;
+}
+.react-tel-input .selected-flag{
+    background-color: #E5E7EB !important;
+
+}
+.react-tel-input .special-label{
+    display: none !important;
+}
