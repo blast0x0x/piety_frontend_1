@@ -176,7 +176,7 @@ const Navbar = () => {
                         />
                     </button>
                 </div> */}
-                {/* <div className="hidden sm:flex">
+                <div className="hidden sm:flex">
                     {
                         isConnected ?
                             <>
@@ -213,7 +213,7 @@ const Navbar = () => {
                                 Connect Wallet
                             </button>
                     }
-                </div> */}
+                </div>
                 {/* Mobile Hamburger Menu */}
                 <div className="lg:hidden">
                     <button
@@ -255,7 +255,7 @@ const Navbar = () => {
                         </ul>
 
                         {/* Mobile CTA Button */}
-                        {/* <div className="mt-[20px] sm:hidden">
+                        <div className="mt-[20px] sm:hidden">
                             {
                                 isConnected ?
                                     <>
@@ -292,7 +292,7 @@ const Navbar = () => {
                                         Connect Wallet
                                     </button>
                             }
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             )}

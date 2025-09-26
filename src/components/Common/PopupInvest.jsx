@@ -500,7 +500,7 @@ const PopupInvest = () => {
         </div>
 
         {/* Currency Selection Buttons */}
-        <div className="flex justify-evenly pt-[25px] 
+        <div className="flex justify-evenly pt-[25px] gap-[14px]
                         max-[1200px]:pt-[20px] max-[700px]:pt-[18px] max-[500px]:pt-[15px] max-[500px]:gap-[10px]">
           <button
             onClick={() => handleCurrencySelect('ETH')}
