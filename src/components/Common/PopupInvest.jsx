@@ -265,12 +265,12 @@ const PopupInvest = () => {
   useEffect(() => {
     if (currentTime >= startTime) {
       setPresaleStarted(true);
-      setCountdownTime(startTime + duration);
+      setCountdownTime(startTime + 4233600n);
     } else {
       setPresaleStarted(false);
       setCountdownTime(startTime);
     }
-  }, [startTime, duration, presaleStarted])
+  }, [startTime, /*duration, */presaleStarted])
 
   // Handle currency selection
   const handleCurrencySelect = (currency) => {

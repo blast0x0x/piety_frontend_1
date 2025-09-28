@@ -61,6 +61,11 @@ const InvestPiety = () => {
         <>
             <div className="text-center pt-[40px] pb-[15px] bg_img">
                 <div className="container mx-auto max-w-7xl lg:grid grid-cols-3 items-start">
+                    <div className="order-1 mb-4 lg:order-3">
+                        <div className="max-w-[506px] mx-auto">
+                            <PopupInvest />
+                        </div>
+                    </div>
 
                     <div
                         className="rounded-3xl lg:w-[100%] lg:mb-auto mb-5 w-[80%] mx-auto p-4 bg-[#340c6a]  text-white relative overflow-hidden"
@@ -72,19 +77,14 @@ const InvestPiety = () => {
                                 className="font-bold lg:text-[36px] text-[20px] mb-6 leading-tight"
                                 style={{  color: "rgb(230, 180, 23)", fontFamily: "Arial, sans-serif" }}
                             >
-                                Imagine A
-                                New System.
+                                Imagine A New System.
                             </h1>
 
                             <h2
                                 className="font-bold mb-8  lg:text-[36px] text-[20px] leading-tight"
                                 style={{ color: "rgb(230, 180, 23)", fontFamily: "Arial, sans-serif" }}
                             >
-                                A Design So
-                              
-                                Simple Yet
-                                
-                                So Powerful
+                                A Design So Simple Yet So Powerful
                             </h2>
 
                             <div className="mb-8">
@@ -119,13 +119,6 @@ const InvestPiety = () => {
 
                         <div className="relative">
                             <Image src={goldpiety} className="w-[350px]" />
-                        </div>
-                    </div>
-
-
-                    <div className="">
-                        <div className="max-w-[506px] mx-auto">
-                            <PopupInvest />
                         </div>
                     </div>
                 </div>
