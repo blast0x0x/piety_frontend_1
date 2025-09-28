@@ -59,11 +59,11 @@ const InvestPiety = () => {
 
     return (
         <>
-            <div className="text-center pt-[40px] pb-[15px] bg-gradient-to-r from-purple-900 via-cyan-500 to-indigo-900">
+            <div className="text-center pt-[40px] pb-[15px] bg_img">
                 <div className="container mx-auto max-w-7xl lg:grid grid-cols-3 items-start">
 
                     <div
-                        className="rounded-3xl lg:w-[100%] lg:mb-auto mb-5 w-[80%] mx-auto p-4  bg-purple-950 text-white relative overflow-hidden"
+                        className="rounded-3xl lg:w-[100%] lg:mb-auto mb-5 w-[80%] mx-auto p-4 bg-[#340c6a]  text-white relative overflow-hidden"
                         style={{ boxShadow: "rgb(234, 179, 11) 2px 3px 20px 12px" }}
 
                     >

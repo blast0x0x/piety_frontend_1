@@ -41,7 +41,7 @@ export default function ExclusivityCards() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#340c6a] text-white lg:p-8 p-6">
+    <main className="min-h-screen  text-white lg:p-8 p-6">
       <div className="container max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-2 lg:p-4 p-2 gap-6">
         {features.map((item, index) => (
             

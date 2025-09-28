@@ -198,8 +198,8 @@ const PopupInvest = () => {
 
   const [presaleStarted, setPresaleStarted] = useState(false);
 
-  const goalAmount = 62000000; // $62M goal
-  const totalTokens = 1240000000; // 1.24B tokens
+  const goalAmount = 2500000; // $2.5M goal
+  const totalTokens = 961000000; // 961M tokens
 
   const [totalUSD, setTotalUSD] = useState(0);
   const [progress, setProgress] = useState(0);
