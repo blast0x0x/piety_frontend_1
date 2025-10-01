@@ -265,7 +265,7 @@ const PopupInvest = () => {
   useEffect(() => {
     if (currentTime >= startTime) {
       setPresaleStarted(true);
-      setCountdownTime(startTime + 2759697n);
+      setCountdownTime(startTime + 2792097n);
     } else {
       setPresaleStarted(false);
       setCountdownTime(startTime);
